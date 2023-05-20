@@ -1,0 +1,128 @@
+* {
+    background: #fff;
+    color: #333;
+    font-family: Lato, sans-serif;
+}
+
+
+.containter {
+    display: block;
+    width: 400px;
+    margin: 100px auto 0;
+}
+
+.open-form {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    background-color: white;
+    color: #4CAF50;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+
+}
+
+.open-form:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#new-task-input {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+    outline: none;
+}
+
+#new-task {
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+}
+
+#new-task:hover {
+    color: #4CAF50;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    padding-bottom: 5px;
+    width: 300px;
+    border-bottom: 2px solid #333;
+}
+
+.task-controls {
+    display: flex;
+    width: 30%;
+}
+
+#list {
+    width: 300px;
+}
+
+.task-list {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+
+
+.toggle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+.toggle a:hover {
+    background: #ddd;
+
+}
+
+
+.done {
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-bottom: #df2d2d solid 1px;
+}
+
+.remove {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 6px;
+    color: #333;
+
+
+}
+
+.remove:hover {
+    color: #df2d2d;
+}
+
+.open {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.overline {
+    text-decoration: line-through;
+}
